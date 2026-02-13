@@ -9,9 +9,19 @@ class Pattern1 {
         {
           for(int j=0;j<m;j++)
           {
-            System.out.print("*");
+            System.out.print("* ");
           }
           System.out.println();
         }
     }
 }
+/*
+
+OUTPUT:
+* * * *
+* * * *
+* * * *
+* * * *
+* * * *
+
+*/

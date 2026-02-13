@@ -18,3 +18,12 @@ public class Pattern5 {
         }
     }
 }
+/*
+
+OUTPUT:
+   *
+  **
+ ***
+****
+
+*/
