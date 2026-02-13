@@ -14,3 +14,13 @@ public class Pattern3 {
         }
     }
 }
+
+/*
+
+OUTPUT:
+*
+**
+***
+****
+
+*/
