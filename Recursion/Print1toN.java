@@ -18,4 +18,17 @@ class Print1toN
         int n=sc.nextInt();
         p1.f(1,n);
     }
+<<<<<<< HEAD
 }
+=======
+}
+/*
+OUTPUT:
+Enter n:5
+  1
+  2
+  3
+  4
+  5
+*/
+>>>>>>> 7cafbff5f834eab021314ad4ed7495be25d33d0b
