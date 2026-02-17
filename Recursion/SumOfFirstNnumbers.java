@@ -1,3 +1,4 @@
+/*Parameterised recursion*/
 import java.util.*;
 public class SumOfFirstNnumbers {
     void f(int i,int sum)
