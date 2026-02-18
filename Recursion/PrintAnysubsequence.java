@@ -39,4 +39,11 @@ public class PrintAnysubsequence {
         p1.print(0, ds, 0, sum, arr, n);
     }
 }
+<<<<<<< HEAD
 
+=======
+/*
+OUTPUT:
+1 1 
+*/
+>>>>>>> b23a3027799ec6d8d873392194986e38239a225c
