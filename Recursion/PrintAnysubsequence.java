@@ -9,19 +9,17 @@ public class PrintAnysubsequence {
                     System.out.print(val + " ");
                 }
                 System.out.println();
-                return true;   // found one valid subsequence
+                return true;  
             }
             return false;
         }
 
-        // take the element
         ds.add(arr[ind]);
         s += arr[ind];
         if (print(ind + 1, ds, s, sum, arr, n)) {
             return true;
         }
 
-        // not take the element
         s -= arr[ind];
         ds.remove(ds.size() - 1);
         if (print(ind + 1, ds, s, sum, arr, n)) {
@@ -41,3 +39,4 @@ public class PrintAnysubsequence {
         p1.print(0, ds, 0, sum, arr, n);
     }
 }
+
