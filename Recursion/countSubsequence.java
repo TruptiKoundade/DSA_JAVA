@@ -1,3 +1,4 @@
+//count subsequences with sum k.
 public class countSubsequence {
     int count(int ind,int s,int sum,int arr[],int n)
     {
