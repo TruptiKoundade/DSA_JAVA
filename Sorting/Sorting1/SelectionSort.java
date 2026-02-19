@@ -1,5 +1,3 @@
-package Sorting;
-
 import java.util.*;
 class SelectionSort
 {
@@ -25,17 +23,17 @@ class SelectionSort
     {
         Scanner sc=new Scanner(System.in);
         SelectionSort s=new SelectionSort();
-        System.out.println("\nEnter the size of array:");
+        System.out.println("Enter the size of array:");
         int n=sc.nextInt();
         int i,j;
         int arr[]=new int[20];
-        System.out.print("\nEnter array elements:");
+        System.out.print("Enter array elements:");
         for(i=0;i<n;i++)
         {
             arr[i]=sc.nextInt();
         }
         s.selectionSort(arr,n);
-        System.out.println("\nSorted Array:");
+        System.out.println("Sorted Array:");
         for(i=0;i<n;i++)
         {
             System.out.print(arr[i]+" ");
